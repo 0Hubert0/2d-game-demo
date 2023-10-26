@@ -367,7 +367,7 @@ public class Main extends Application {
 
         Stage stage = new Stage();
         stage.setScene(scene);
-        stage.setTitle("Koopa");
+        stage.setResizable(false);
         stage.show();
     }
 
